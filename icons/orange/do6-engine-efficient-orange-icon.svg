@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="0.056" x2="0.888" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e26d38"/>
+      <stop offset="0.522" stop-color="#cd7b2d"/>
+      <stop offset="1" stop-color="#f1b013"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_14" data-name="Group 14" transform="translate(-105 -43)">
+    <path id="Exclusion_3" data-name="Exclusion 3" class="cls-1" d="M28.068,50H20.976l-1.2-4.742a20.773,20.773,0,0,1-6.232-2.764L9.828,44.708,4.813,39.693l2.309-3.869a20.744,20.744,0,0,1-2.585-6.605L0,28.068V20.976l4.78-1.208A20.792,20.792,0,0,1,7.422,13.73L4.813,9.357,9.828,4.342l4.526,2.695A20.761,20.761,0,0,1,19.769,4.78L20.976,0h7.092l1.15,4.538a20.728,20.728,0,0,1,6.445,2.488l4.505-2.688,5.014,5.016L42.594,13.7a20.746,20.746,0,0,1,2.663,6.078L50,20.976v7.092l-4.5,1.141a20.719,20.719,0,0,1-2.6,6.645L45.183,39.7l-5.014,5.014-3.7-2.206A20.717,20.717,0,0,1,29.209,45.5L28.068,50ZM25,10a15,15,0,1,0,10.607,4.393A14.9,14.9,0,0,0,25,10Z" transform="translate(105 43)"/>
+    <path id="Union_35" data-name="Union 35" class="cls-1" d="M0,12V0H2V10H7v2Z" transform="translate(129 59.001)"/>
+  </g>
+</svg>

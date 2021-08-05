@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50.001" height="50" viewBox="0 0 50.001 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-0.06" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e26d38"/>
+      <stop offset="0.61" stop-color="#cd7b2d"/>
+      <stop offset="1" stop-color="#f1b013"/>
+    </linearGradient>
+  </defs>
+  <path id="Exclusion_2" data-name="Exclusion 2" class="cls-1" d="M34,37H10V13H34V37ZM22.169,27.5A10,10,0,0,0,13,33.5H31.335A10,10,0,0,0,22.169,27.5Zm0-11a5,5,0,1,0,5,5A5.005,5.005,0,0,0,22.169,16.5ZM8,37H-16V13H8V37ZM-3.831,27.5A10,10,0,0,0-13,33.5H5.335A10,10,0,0,0-3.831,27.5Zm0-11a5.005,5.005,0,0,0-5,5,5.006,5.006,0,0,0,5,5,5.006,5.006,0,0,0,5-5A5.006,5.006,0,0,0-3.831,16.5ZM34,11H10V-13H34V11ZM22.169,1.5A10,10,0,0,0,13,7.5H31.335A10,10,0,0,0,22.169,1.5Zm0-11a5.005,5.005,0,0,0-5,5,5.006,5.006,0,0,0,5,5,5.006,5.006,0,0,0,5-5A5.006,5.006,0,0,0,22.169-9.5ZM8,11H-16V-13H8V11ZM-3.831,1.5A10,10,0,0,0-13,7.5H5.335A10,10,0,0,0-3.831,1.5Zm0-11a5.005,5.005,0,0,0-5,5,5.006,5.006,0,0,0,5,5,5.006,5.006,0,0,0,5-5A5.006,5.006,0,0,0-3.831-9.5Z" transform="translate(16 13)"/>
+</svg>

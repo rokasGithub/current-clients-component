@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.052" y1="-0.053" x2="1.062" y2="0.874" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e26d38"/>
+      <stop offset="0.517" stop-color="#cd7b2d"/>
+      <stop offset="1" stop-color="#f1b013"/>
+    </linearGradient>
+  </defs>
+  <path id="Union_114" data-name="Union 114" class="cls-1" d="M382.5,96a6,6,0,0,1,5-5.917V79.951H371V90.083a6,6,0,1,1-2,0V79.951H351.5V90.083a6,6,0,1,1-2,0V77.955H369V68.969H355V52h29.167V68.968H371v8.986h18.5V90.083a6,6,0,1,1-7,5.917Zm-2.819-38.406h.022v6.468h1.319V56.274h-2.089l-2.1,5.456-2.079-5.456h-2.112v7.789h1.32V57.595h.022l2.364,6.468h.967L379.68,57.6h0Zm-13.794,6.468h5.357V62.808h-3.971V60.7h3.575V59.442h-3.575V57.529h3.773V56.274h-5.159Zm-6.556-1.782h3.376l.727,1.782h1.583l-3.355-7.789h-1.2l-3.388,7.789h1.551l.7-1.781h0Zm2.892-1.188H359.8l1.22-3.168,1.2,3.167h0Z" transform="translate(-344.5 -52)"/>
+</svg>

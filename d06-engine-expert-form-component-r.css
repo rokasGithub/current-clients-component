@@ -1,0 +1,213 @@
+@font-face {
+  font-family: 'Avenir-Black';
+  src: url('./fonts/Avenir-Black/Avenir-Black.eot');
+  src: url('./fonts/Avenir-Black/Avenir-Black.eot?#iefix')
+      format('embedded-opentype'),
+    url('./fonts/Avenir-Black/Avenir-Black.woff2') format('woff2'),
+    url('./fonts/Avenir-Black/Avenir-Black.woff') format('woff'),
+    url('./fonts/Avenir-Black/Avenir-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir-Book';
+  src: url('./fonts/Avenir-Book/Avenir-Book.eot');
+  src: url('./fonts/Avenir-Book/Avenir-Book.eot?#iefix')
+      format('embedded-opentype'),
+    url('./fonts/Avenir-Book/Avenir-Book.woff2') format('woff2'),
+    url('./fonts/Avenir-Book/Avenir-Book.woff') format('woff'),
+    url('./fonts/Avenir-Book/Avenir-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir-Heavy';
+  src: url('./fonts/Avenir-Heavy/Avenir-Heavy.eot');
+  src: url('./fonts/Avenir-Heavy/Avenir-Heavy.eot?#iefix')
+      format('embedded-opentype'),
+    url('./fonts/Avenir-Heavy/Avenir-Heavy.woff2') format('woff2'),
+    url('./fonts/Avenir-Heavy/Avenir-Heavy.woff') format('woff'),
+    url('./fonts/Avenir-Heavy/Avenir-Heavy.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.d06engine-currentclients-main-container {
+  /* max-width: 1024px;
+  height: 350px; */
+  /* margin: 825px 0 100px; */
+  padding: 35px 0px 0px 0px;
+  /* padding: 35px 0px 0px 49px; */
+  /* box-shadow: 0 2px 4px 0 #776ce6; */
+  background-color: rgba(119, 108, 230, 0.1);
+}
+
+.current-clients__header {
+  font-family: 'Avenir-Black';
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 1.61px;
+  color: #676767;
+  margin: 0px 0px 57px 0px;
+  text-transform: uppercase;
+}
+
+h2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h2:before,
+h2:after {
+  content: '';
+  border-top: solid 2px #776ce6;
+  margin: 0 14px 0 0;
+  flex: 1 0 20px;
+}
+
+h2:after {
+  margin: 0 0 0 14px;
+}
+
+.do6-engine-currentclients-second-container {
+  margin: 0px 122px 0px 122px;
+}
+
+.do6-engine-currentclients-second-container-column {
+  padding: 12px 48px 32px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 1px rgba(191, 191, 191, 0.5);
+  background-color: #fff;
+  position: relative;
+  min-height: 150px;
+  max-height: 150px;
+}
+
+.do6-engine-currentclients-second-container-column::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 6px;
+  /* background: blue; */
+  background-image: linear-gradient(
+    to right,
+    #776ce6,
+    #7c8ad0 82%,
+    #94a5d1 118%
+  );
+  border-radius: 5px;
+}
+
+/* .do6-engine-currentclients-second-container-column:nth-child(2) {
+  padding-left: 34.5px;
+} */
+
+.do6-engine-currentclients-second-container-column h3 {
+  margin: 18px 34px 10px 0;
+  font-family: 'Avenir-Heavy';
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  color: #383838;
+  text-transform: uppercase;
+}
+
+.do6-engine-currentclients-second-container-column p {
+  margin: 10px 34px 0 0;
+  font-family: 'Avenir-Book';
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 0px;
+  color: #383838;
+}
+
+.do6-engine-currentclients-second-container-column img {
+  position: absolute;
+  top: 12px;
+  right: 10.5px;
+  width: 48px;
+  border-radius: 50%;
+}
+
+.clients_results__slant {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.nogap > .current-clients-column {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+@media only screen and (max-width: 930px) {
+  .do6-engine-currentclients-second-container {
+    margin: 0px 59px 0px 59px;
+  }
+
+  .nogap > .current-clients-column {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .do6-engine-currentclients-second-container-column:nth-child(2) {
+    margin-top: 32px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nogap > .current-clients-column:nth-child(2) {
+    padding-top: 17px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .do6-engine-currentclients-second-container-column img {
+    top: 8px;
+    right: 8px;
+  }
+
+  .do6-engine-currentclients-second-container-column {
+    padding: 20px 0px 25px 30px;
+  }
+
+  .clients_results__slant {
+    margin-top: -2px;
+  }
+
+  .d06engine-currentclients-main-container {
+    padding: 35px 0px 30px 0px;
+  }
+
+  .do6-engine-currentclients-second-container {
+    margin: 0px 20px 0px 20px;
+  }
+
+  .do6-engine-currentclients-second-container-column h3 {
+    font-size: 18px;
+  }
+
+  .do6-engine-currentclients-second-container-column p {
+    font-size: 16px;
+  }
+
+  .do6-engine-currentclients-second-container-column:nth-child(2) {
+    margin-top: 32px;
+  }
+}
